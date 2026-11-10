@@ -1,5 +1,5 @@
 let nome = "Gustavo";
-let profissao = "Desenvoldedor Front-end";
+let profissao = "Desenvolvedor Front-end";
 let horasEstudadas = 1;
 
 console.log ("Olá," + nome);
@@ -54,7 +54,7 @@ let pessoa = {
 
 pessoa.profissao = "Desenvolvedor";
 
-pessoa.altura = "1,74 cm";
+pessoa.altura = "1,74 m";
 
 console.log(pessoa);
 
@@ -172,7 +172,7 @@ enviarCadastro.addEventListener('click', function() {
     if (nome === "" || email === "") {
         resultadoCadastro.textContent = 'Preencha todos os campos!'
     } else {
-        resultadoCadastro.textContent = "Cadastro realizado co  sucesso, " + nome +"!";
+        resultadoCadastro.textContent = "Cadastro realizado com  sucesso, " + nome +"!";
     }
 
 });
