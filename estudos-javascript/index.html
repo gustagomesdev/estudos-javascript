@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Meu primeiro projeto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 id="titulo">Minha jornada em tecnologia</h1>
-    <p>Estou aprendendo JavaScript!</p>
-    <button id="meuBotao">Clique aqui</button>
-    <p id="mensagem">Ainda não cliquei.</p>
+    <div class="container">
+        <div class="card">
+            <h1 id="titulo">Minha jornada em tecnologia</h1>
+            <p>Estou aprendendo JavaScript!</p>
+            <button id="meuBotao">Clique aqui</button>
+        </div>
 
+        <div class="card">
+            <h2>Minha página interativa</h2>
+            <button id="botaoAlternar">Clique aqui</button>
+            <p id="mensagemAlternar">Clique no botão!</p>
+        </div>
 
-    <h2>Minha página interativa</h2>
-    <button id="botaoAlternar">Clique aqui</button>
-    <p id="mensagemAlternar">Clique no botão!</p>
+        <div class="card">
+            <h2>Meu primeiro formulário</h2>
+            <label for="nomeUsuario">Qual é o seu nome?</label>
+            <input type="text" id="nomeUsuario" placeholder="Digite seu nome">
+            <button id="botaoEnviar">Enviar</button>
+            <p id="resposta"></p>
+        </div>
 
-    <h2>Meu primeiro formulário</h2>
-    <label for="numeUsuario">Qual é o seu nome?</label>
-    <input type="text" id="nomeUsuario" placeholder="Digite seu nome">
-    <button id="botaoEnviar">Enviar</button>
-    <p id="resposta"></p>
-    
+        <div class="card">
+            <!--Dia 14-->
+            <h2>Prévia em tempo real</h2>
+            <label for="nomeAoVivo">Digite seu nome:</label>
+            <input type="text" id="nomeAoVivo" placeholder="Seu nome">
+            <p id="preVisualizacao">Sua mensagem aparecerá aqui.</p>
+        </div>
 
+        <div class="card">
+            <!--Dia 15-->
+            <h2>Cadastro de usuários</h2>
+            <label for="nomeCadastro">Nome:</label>
+            <input type="text" id="nomeCadastro" placeholder="Digite seu nome aqui">
+            <label for="emailCadastro">Email:</label>
+            <input type="email" id="emailCadastro" placeholder="Digite seu email aqui">
+            <button id="enviarCadastro">Cadastrar</button>
+            <p id="resultadoCadastro"></p>
+        </div>
 
+        <div class="card">
+            <h2>Nova funcionalidade</h2>
+            <p>Estou aprendendo a trabalhar com branches!</p>
+        </div>
 
-    <!--Dia 14-->
-    <h2>Prévia em tempo real</h2>
+    </div>
 
-    <label for="nomeAoVivo">Digite seu nome:</label>
-    <input type="text" id="nomeAoVivo" placeholder="Seu nome">
-
-    <p id="preVisualizacao">Sua mensagem aparecerá aqui.</p>
-
-    <!--Dia 15-->
-
-    <h2>Cadastro de usuários</h2>
-    <label for="nomeCadastro">Nome:</label>
-    <input type="text" id="nomeCadastro" placeholder="Digite seu nome aqui">
-    <label for="emailCadastro">Email:</label>
-    <input type="email" id="emailCadastro" placeholder="Digite seu email aqui">
-    <button id="enviarCadastro">Cadastrar</button>
-
-    <p id="resultadoCadastro"></p>
-
-    
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
